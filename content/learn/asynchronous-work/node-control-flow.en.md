@@ -160,7 +160,7 @@ You will be able to perform almost all of your operations with the following 3 p
 
   function executeFunctionWithArgs(operation, callback) {
     // executes function
-    const { args, func } = operation;
+    const { func, args } = operation;
     func(args, callback);
   }
 
